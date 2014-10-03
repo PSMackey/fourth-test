@@ -14,7 +14,7 @@ void ofApp::setup(){
     
     Aclr.set(255,90,200);
     
-    ofBackground(90);
+    ofBackground(70); //pm1002
 }
 
 void ofApp::update(){
