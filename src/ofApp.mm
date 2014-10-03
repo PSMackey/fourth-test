@@ -1,7 +1,7 @@
 #include "ofApp.h"
-//touchOne  //mackey Summer 2014
+//touchTwo  //mackey Summer 2014
 
-//one touch-responsive area
+//2 touch-responsive areas
 //NOT rotation or Retina -sensitive
 
 void ofApp::setup(){
@@ -10,9 +10,12 @@ void ofApp::setup(){
     
     float size = ofGetWidth() - 60;
     
-    areaA.set(loc, size,size);
+    areaA.set(loc, size/2,size/2);
     
     Aclr.set(255,90,200);
+    
+    areaB.set(loc+ofPoint(90,240), size/2,size/2);
+    Bclr.set(0,90,255);
     
     ofBackground(70); //pm1002
 }

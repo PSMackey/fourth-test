@@ -26,8 +26,8 @@ class ofApp : public ofxiOSApp{
     
     
     private:
-        ofRectangle areaA;
-        ofColor Aclr;
+        ofRectangle areaA, areaB;
+        ofColor Aclr, Bclr;
     
 };
 
