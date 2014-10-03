@@ -1,6 +1,6 @@
 #include "ofApp.h"
 //touchOne  //mackey Summer 2014
-
+//whup dee-do
 //one touch-responsive area
 //NOT rotation or Retina -sensitive
 
