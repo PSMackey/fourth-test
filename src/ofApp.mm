@@ -45,6 +45,12 @@ void ofApp::touchDown(ofTouchEventArgs & touch){
     } else {
         Aclr.set(255,190,190);
     }
+    if (areaB.inside(tLoc)) {
+        Bclr.set(255);
+        printf("Touched Area B at %0.f %0.f\n", touch.x,touch.y);
+    } else {
+        Bclr.set(0,90,255);
+    }
 }
 
 
