@@ -12,7 +12,7 @@ void ofApp::setup(){
     
     areaA.set(loc, size,size);
     
-    Aclr.set(255,190,190);
+    Aclr.set(255,90,200);
     
     ofBackground(90);
 }
