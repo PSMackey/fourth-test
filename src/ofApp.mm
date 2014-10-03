@@ -17,7 +17,7 @@ void ofApp::setup(){
     areaB.set(loc+ofPoint(90,240), size/2,size/2);
     Bclr.set(0,90,255);
     
-    ofBackground(70); //pm1002
+    ofBackground(110);
 }
 
 void ofApp::update(){
